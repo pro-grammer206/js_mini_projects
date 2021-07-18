@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+#content{
+    display: flex;
+    column-gap:50px;
+    row-gap: 50px;   
+}
+

@@ -1,0 +1,17 @@
+.hall{
+    display: flex;
+    gap:50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.cards{
+    display: flex;
+    width:200px;
+    flex-direction: column;
+    border:2px solid black;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

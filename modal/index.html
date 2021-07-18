@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Modal Box</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+    <button class="btn" id="show">Show form</button>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, ex distinctio? Deserunt temporibus saepe, corrupti fugit rerum explicabo sint adipisci.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate at omnis, itaque natus dolore magnam possimus mollitia quas placeat temporibus!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo asperiores, saepe aut ipsa corrupti dolore natus mollitia vel, beatae veritatis, consequuntur eaque vitae id recusandae sit quis maxime cumque tempore.</p>
+    <section class="modal">
+        <div class="circle_1"></div>
+        <div class="circle_2"></div>
+        
+        <form class="modal-content">
+            <i class="far fa-times-circle close"></i>
+            <h3>Login Form</h3>
+            
+            <label for="uname">Username <input type="text" id="uname" name="uname" placeholder="enter username"/></label>
+            <label for="pass">Password <input type="password" id="pass" name="upass" placeholder="enter password"/></label>
+            <input class="btn" type="submit" value="login"/>
+        </form>
+
+    </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
