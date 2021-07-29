@@ -1,0 +1,23 @@
+{
+    "data": {
+      "products": [
+     {
+       "id": 1,
+       "name": "One plus nord 2",
+       "price": 30000,
+       "desc": "so called affordable flagship model"
+     },
+     {
+        "id": 2,
+        "name": "Apple Iphone 13",
+        "price": 105000,
+        "desc": "for elite users with money to burn"
+      },
+      {
+        "id": 3,
+        "name": "MotoG60",
+        "price": 18000,
+        "desc": "phone for the simple guy"
+      }
+   ]
+   }}
